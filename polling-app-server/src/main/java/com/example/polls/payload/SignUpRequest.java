@@ -20,7 +20,7 @@ public class SignUpRequest {
     private String phone_number;
 
     @NotBlank
-    @Size(min = 10, max = 40)
+    @Size(min = 2, max = 40)
     private String age;
 
     @NotBlank
